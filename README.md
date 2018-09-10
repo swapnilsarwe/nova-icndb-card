@@ -1,7 +1,8 @@
 ## Laravel Nova ICNDB Package
-This packages uses the ICNDB Api to show the random joke on a card on Laravel Nova Dashboard.
+This packages uses the [ICNDB Api](http://www.icndb.com/api/) to show the random joke on a card on Laravel Nova Dashboard.
 
-
+Here's how the card will look like on a dashboard.
+![alt text](https://raw.githubusercontent.com/swapnilsarwe/nova-icndb/master/card.png "ICNDB Random Joke")
 
 ## Installation
 You can install the packace in to a Laravel app that uses Nova via composer:
