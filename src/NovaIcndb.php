@@ -1,10 +1,10 @@
 <?php
 
-namespace Swapnilsarwe\NovaIcndb;
+namespace Swapnilsarwe\NovaIcndbCard;
 
 use Laravel\Nova\Card;
 
-class NovaIcndb extends Card
+class NovaIcndbCard extends Card
 {
     /**
      * The width of the card (1/3, 1/2, or full).
@@ -20,6 +20,6 @@ class NovaIcndb extends Card
      */
     public function component()
     {
-        return 'nova-icndb';
+        return 'nova-icndb-card';
     }
 }
