@@ -8,7 +8,7 @@ Here's how the card will look like on a dashboard.
 ## Installation
 You can install the packace in to a Laravel app that uses Nova via composer:
 ```
-composer require swapnilsarwe/nova-icndb
+composer require swapnilsarwe/nova-icndb-card
 ```
 
 As a next step you will have to register the card with your Nova App. You can achieve this by adding the package in the `cards` method of the `NovaServiceProvider`.
@@ -20,7 +20,7 @@ public function cards()
 {
     return [
         // ...
-        new \Swapnilsarwe\NovaIcndb\NovaIcndb,
+        new \Swapnilsarwe\NovaIcndbCard\NovaIcndbCard,
     ];
 }
 ```
