@@ -2,7 +2,7 @@
     <card class="flex flex-col items-center justify-center">
         <div class="px-3 py-3">
             <h2 class="text-center text-2xl text-80 font-light">
-                Chuck Norris Fact
+                Chuck Norris Joke
             </h2>
             <div class="mt-4">
                 <span class="text-70">{{ joke }}</span>
