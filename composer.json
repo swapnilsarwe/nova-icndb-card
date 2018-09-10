@@ -1,5 +1,5 @@
 {
-    "name": "swapnilsarwe/nova-icndb",
+    "name": "swapnilsarwe/nova-icndb-card",
     "description": "A Laravel Nova card.",
     "keywords": [
         "laravel",
@@ -11,13 +11,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Swapnilsarwe\\NovaIcndb\\": "src/"
+            "Swapnilsarwe\\NovaIcndbCard\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Swapnilsarwe\\NovaIcndb\\CardServiceProvider"
+                "Swapnilsarwe\\NovaIcndbCard\\CardServiceProvider"
             ]
         }
     },
