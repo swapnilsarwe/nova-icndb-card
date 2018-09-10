@@ -1,6 +1,6 @@
 <?php
 
-namespace Swapnilsarwe\NovaIcndb;
+namespace Swapnilsarwe\NovaIcndbCard;
 
 use Laravel\Nova\Nova;
 use Laravel\Nova\Events\ServingNova;
@@ -21,8 +21,8 @@ class CardServiceProvider extends ServiceProvider
         });
 
         Nova::serving(function (ServingNova $event) {
-            Nova::script('nova-icndb', __DIR__.'/../dist/js/card.js');
-            Nova::style('nova-icndb', __DIR__.'/../dist/css/card.css');
+            Nova::script('nova-icndb-card', __DIR__.'/../dist/js/card.js');
+            Nova::style('nova-icndb-card', __DIR__.'/../dist/css/card.css');
         });
     }
 
@@ -38,7 +38,7 @@ class CardServiceProvider extends ServiceProvider
         }
 
         Route::middleware(['nova'])
-                ->prefix('nova-vendor/nova-icndb')
+                ->prefix('nova-vendor/nova-icndb-card')
                 ->group(__DIR__.'/../routes/api.php');
     }
 
