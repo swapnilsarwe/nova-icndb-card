@@ -1,3 +1,3 @@
 Nova.booting((Vue, router) => {
-    Vue.component('nova-icndb', require('./components/Card'));
+    Vue.component('nova-icndb-card', require('./components/Card'));
 })
