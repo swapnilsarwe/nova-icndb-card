@@ -1,3 +1,5 @@
+[![Total Downloads](https://poser.pugx.org/swapnilsarwe/nova-icndb-card/downloads)](https://packagist.org/packages/swapnilsarwe/nova-icndb-card)
+
 ## Laravel Nova ICNDB Package
 This packages uses the [ICNDB Api](http://www.icndb.com/api/) to show the random joke on a card on Laravel Nova Dashboard.
 
