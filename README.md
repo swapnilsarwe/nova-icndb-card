@@ -41,7 +41,7 @@ http://api.icndb.com/categories
 ```
 
 By default all jokes marked as `explicit` are excluded. You can update the config as per your need.
-```
+```php
 ...
 'excluded_categories' => [
     'explicit',
