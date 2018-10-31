@@ -33,10 +33,20 @@ You can publish the config using the following command
 php artisan vendor:publish --provider="Swapnilsarwe\NovaIcndbCard\CardServiceProvider"
 ```
 
-Now you can configure the category from which you want to display facts on the dashboard.
+Now you can configure the category from which you dont want to display jokes on the dashboard.
+
 The complete list of categories can be checked out here
 ```
 http://api.icndb.com/categories
+```
+
+By default all jokes marked as `explicit` are excluded. You can update the config as per your need.
+```
+...
+'excluded_categories' => [
+    'explicit',
+],
+...
 ```
 
 ### Security
