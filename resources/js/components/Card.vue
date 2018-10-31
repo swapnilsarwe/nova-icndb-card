@@ -27,8 +27,8 @@ export default {
 
     methods: {
         getJoke() {
-            Nova.request().get('https://api.icndb.com/jokes/random').then(response => {
-                this.joke = response.data.value.joke
+            Nova.request().get('/nova-vendor/nova-icndb-card/random').then(response => {
+                this.joke = response.data;
             })
         }
     }

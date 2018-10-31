@@ -1,13 +1,21 @@
 {
     "name": "swapnilsarwe/nova-icndb-card",
     "description": "A Laravel Nova card.",
+    "version": "1.1.0",
     "keywords": [
         "laravel",
         "nova"
     ],
     "license": "MIT",
+    "repositories": [
+        {
+            "type": "git",
+            "url": "git@github.com:swapnilsarwe/icndb.git"
+        }
+    ],
     "require": {
-        "php": ">=7.1.0"
+        "php": ">=7.1.0",
+        "icndb/icndb": "*"
     },
     "autoload": {
         "psr-4": {

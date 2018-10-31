@@ -24,6 +24,10 @@ class CardServiceProvider extends ServiceProvider
             Nova::script('nova-icndb-card', __DIR__.'/../dist/js/card.js');
             Nova::style('nova-icndb-card', __DIR__.'/../dist/css/card.css');
         });
+
+        $this->publishes([
+            __DIR__ . '/config/icndb-card.php' => config_path('icndb-card.php'),
+        ]);
     }
 
     /**
@@ -49,6 +53,6 @@ class CardServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        $this->mergeConfigFrom(__DIR__ . '/config/icndb-card.php', 'icndb-card');
     }
 }
