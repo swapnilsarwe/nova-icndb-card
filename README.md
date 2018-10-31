@@ -28,7 +28,16 @@ public function cards()
 ```
 
 ## Configuration
+You can publish the config using the following command
+```
+php artisan vendor:publish --provider="Swapnilsarwe\NovaIcndbCard\CardServiceProvider"
+```
 
+Now you can configure the category from which you want to display facts on the dashboard.
+The complete list of categories can be checked out here
+```
+http://api.icndb.com/categories
+```
 
 ### Security
 
