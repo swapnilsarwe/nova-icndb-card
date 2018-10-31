@@ -1,7 +1,6 @@
 {
     "name": "swapnilsarwe/nova-icndb-card",
     "description": "A Laravel Nova card.",
-    "version": "0.0.6",
     "keywords": [
         "laravel",
         "nova"
