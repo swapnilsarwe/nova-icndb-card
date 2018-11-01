@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "swapnilsarwe/icndb",
-            "version": "v1.0.4",
+            "version": "v1.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/swapnilsarwe/icndb.git",
-                "reference": "c011ac3b1988af07048a44e8e082f1bbf31702f3"
+                "reference": "576dfbd0e63637fd1878c91e0176418d061449a2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/swapnilsarwe/icndb/zipball/c011ac3b1988af07048a44e8e082f1bbf31702f3",
-                "reference": "c011ac3b1988af07048a44e8e082f1bbf31702f3",
+                "url": "https://api.github.com/repos/swapnilsarwe/icndb/zipball/576dfbd0e63637fd1878c91e0176418d061449a2",
+                "reference": "576dfbd0e63637fd1878c91e0176418d061449a2",
                 "shasum": ""
             },
             "require": {
@@ -50,7 +50,7 @@
                 "icndb",
                 "jokes"
             ],
-            "time": "2018-11-01T12:50:50+00:00"
+            "time": "2018-11-01T13:03:22+00:00"
         }
     ],
     "packages-dev": [],
