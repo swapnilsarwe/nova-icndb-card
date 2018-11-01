@@ -16,3 +16,4 @@ use Swapnilsarwe\NovaIcndbCard\Http\Controllers\ICNDbJokeController;
 */
 
 Route::get('/random', ICNDbJokeController::class);
+Route::get('/getName', ICNDbJokeController::class);
