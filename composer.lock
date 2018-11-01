@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "242736824461181b1f6d8a35f577d5b1",
+    "content-hash": "34580ec19fb529371167f2b870e9aac3",
     "packages": [
         {
-            "name": "icndb/icndb",
-            "version": "dev-master",
+            "name": "swapnilsarwe/icndb",
+            "version": "v1.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/swapnilsarwe/icndb.git",
-                "reference": "e011dd8eaf4855cda29634048b09aa6ccb799f17"
+                "reference": "c011ac3b1988af07048a44e8e082f1bbf31702f3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/swapnilsarwe/icndb/zipball/e011dd8eaf4855cda29634048b09aa6ccb799f17",
-                "reference": "e011dd8eaf4855cda29634048b09aa6ccb799f17",
+                "url": "https://api.github.com/repos/swapnilsarwe/icndb/zipball/c011ac3b1988af07048a44e8e082f1bbf31702f3",
+                "reference": "c011ac3b1988af07048a44e8e082f1bbf31702f3",
                 "shasum": ""
             },
             "require": {
@@ -26,9 +26,10 @@
             "type": "library",
             "autoload": {
                 "psr-0": {
-                    "ICNDb": "src/"
+                    "Swapnilsarwe": "src/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -36,34 +37,26 @@
                 {
                     "name": "Cyrus David",
                     "email": "apathetic012@gmail.com"
+                },
+                {
+                    "name": "Swapnil Sarwe",
+                    "email": "swapnilsarwe@gmail.com"
                 }
             ],
-            "description": "PHP Wrapper for The Chuck Norris Db API",
-            "homepage": "http://github.com/Apathetic012/ICNDb",
+            "description": "A fork of PHP Wrapper for The Chuck Norris Db API, created by cyrus david.",
+            "homepage": "https://github.com/swapnilsarwe/icndb",
             "keywords": [
                 "chuck-norris",
                 "icndb",
                 "jokes"
             ],
-            "support": {
-                "source": "https://github.com/swapnilsarwe/icndb/tree/v1.0.2"
-            },
-            "time": "2018-11-01T10:59:59+00:00"
+            "time": "2018-11-01T12:50:50+00:00"
         }
     ],
     "packages-dev": [],
-    "aliases": [
-        {
-            "alias": "v1.0.1",
-            "alias_normalized": "1.0.1.0",
-            "version": "9999999-dev",
-            "package": "icndb/icndb"
-        }
-    ],
+    "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "icndb/icndb": 20
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {

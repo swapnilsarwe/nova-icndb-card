@@ -2,7 +2,7 @@
 
 namespace Swapnilsarwe\NovaIcndbCard\Http\Controllers;
 
-use ICNDb;
+use Swapnilsarwe\ICNDbClient;
 
 class ICNDbJokeController
 {
@@ -17,7 +17,7 @@ class ICNDbJokeController
             'firstName' => array_get($nameToUse, 'first_name', 'Chuck'),
             'lastName' => array_get($nameToUse, 'last_name', 'Norris'),
         ];
-        $this->icndbClient = new ICNDb\Client($config);
+        $this->icndbClient = new ICNDbClient($config);
     }
     
     public function __invoke()
