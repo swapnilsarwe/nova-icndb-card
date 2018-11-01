@@ -38,7 +38,8 @@ if for some reason new options are added in config are not visible - do the foll
 php artisan vendor:publish --provider="Swapnilsarwe\NovaIcndbCard\CardServiceProvider" --force
 ```
 
-Also you can use your own name in the joke by updating the following values in the icndb-config.php in config folder
+### Custom Names in jokes
+You can now use your own name in the joke by updating the following values in the icndb-config.php in config folder
 
 ```php
 ...
@@ -49,7 +50,7 @@ Also you can use your own name in the joke by updating the following values in t
 ...
 ```
 
-Now you can configure the category from which you dont want to display jokes on the dashboard.
+Also you can configure the category from which you dont want to display jokes on the dashboard.
 
 The complete list of categories can be checked out here
 ```
@@ -59,7 +60,8 @@ http://api.icndb.com/categories
 By default all jokes marked as `explicit` are excluded. You can update the config as per your need.
 ```php
 ...
-'excluded_categories' => [ // jokes belonging to following categories will not be shown
+'excluded_categories' => [ 
+    // jokes belonging to following categories will not be shown
     'explicit',
 ],
 ...
