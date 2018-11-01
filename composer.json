@@ -8,13 +8,13 @@
     "license": "MIT",
     "repositories": [
         {
-            "type": "git",
-            "url": "git@github.com:swapnilsarwe/icndb.git"
+            "type": "vcs",
+            "url": "https://github.com/swapnilsarwe/icndb.git"
         }
     ],
     "require": {
         "php": ">=7.1.0",
-        "icndb/icndb": "dev-master as v1.0.2"
+        "icndb/icndb": "dev-master as v1.0.1"
     },
     "autoload": {
         "psr-4": {

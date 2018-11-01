@@ -4,15 +4,21 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2e837208286c478c2997df8dc456989b",
+    "content-hash": "242736824461181b1f6d8a35f577d5b1",
     "packages": [
         {
             "name": "icndb/icndb",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "git@github.com:swapnilsarwe/icndb.git",
+                "url": "https://github.com/swapnilsarwe/icndb.git",
                 "reference": "e011dd8eaf4855cda29634048b09aa6ccb799f17"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/swapnilsarwe/icndb/zipball/e011dd8eaf4855cda29634048b09aa6ccb799f17",
+                "reference": "e011dd8eaf4855cda29634048b09aa6ccb799f17",
+                "shasum": ""
             },
             "require": {
                 "php": ">=5.3.0"
@@ -39,14 +45,17 @@
                 "icndb",
                 "jokes"
             ],
+            "support": {
+                "source": "https://github.com/swapnilsarwe/icndb/tree/v1.0.2"
+            },
             "time": "2018-11-01T10:59:59+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [
         {
-            "alias": "v1.0.2",
-            "alias_normalized": "1.0.2.0",
+            "alias": "v1.0.1",
+            "alias_normalized": "1.0.1.0",
             "version": "9999999-dev",
             "package": "icndb/icndb"
         }
