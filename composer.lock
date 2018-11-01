@@ -1,0 +1,64 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "2e837208286c478c2997df8dc456989b",
+    "packages": [
+        {
+            "name": "icndb/icndb",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:swapnilsarwe/icndb.git",
+                "reference": "e011dd8eaf4855cda29634048b09aa6ccb799f17"
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ICNDb": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Cyrus David",
+                    "email": "apathetic012@gmail.com"
+                }
+            ],
+            "description": "PHP Wrapper for The Chuck Norris Db API",
+            "homepage": "http://github.com/Apathetic012/ICNDb",
+            "keywords": [
+                "chuck-norris",
+                "icndb",
+                "jokes"
+            ],
+            "time": "2018-11-01T10:59:59+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [
+        {
+            "alias": "v1.0.2",
+            "alias_normalized": "1.0.2.0",
+            "version": "9999999-dev",
+            "package": "icndb/icndb"
+        }
+    ],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "icndb/icndb": 20
+    },
+    "prefer-stable": true,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=7.1.0"
+    },
+    "platform-dev": []
+}

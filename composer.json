@@ -14,7 +14,7 @@
     ],
     "require": {
         "php": ">=7.1.0",
-        "icndb/icndb": "dev-master as v1.0.1"
+        "icndb/icndb": "dev-master as v1.0.2"
     },
     "autoload": {
         "psr-4": {
