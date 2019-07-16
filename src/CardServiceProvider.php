@@ -2,10 +2,10 @@
 
 namespace Swapnilsarwe\NovaIcndbCard;
 
-use Laravel\Nova\Nova;
-use Laravel\Nova\Events\ServingNova;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider;
+use Laravel\Nova\Events\ServingNova;
+use Laravel\Nova\Nova;
 
 class CardServiceProvider extends ServiceProvider
 {
@@ -26,7 +26,7 @@ class CardServiceProvider extends ServiceProvider
         });
 
         $this->publishes([
-            __DIR__ . '/config/icndb-card.php' => config_path('icndb-card.php'),
+            __DIR__.'/config/icndb-card.php' => config_path('icndb-card.php'),
         ]);
     }
 
@@ -53,6 +53,6 @@ class CardServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->mergeConfigFrom(__DIR__ . '/config/icndb-card.php', 'icndb-card');
+        $this->mergeConfigFrom(__DIR__.'/config/icndb-card.php', 'icndb-card');
     }
 }

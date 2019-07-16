@@ -19,22 +19,23 @@ class ICNDbJokeController
         $this->lastName = array_get($nameToUse, 'last_name', 'Norris');
         $config = [
             'firstName' => $this->firstName,
-            'lastName' => $this->lastName,
+            'lastName'  => $this->lastName,
         ];
         $this->icndbClient = new ICNDbClient($config);
     }
-    
+
     public function __invoke()
     {
         $url = url()->current();
         if (ends_with($url, 'random')) {
             $response = $this->icndbClient->random()->exclude($this->config['excluded_categories'])->get();
+
             return (count($response) > 0) ? $response[0]->joke : '';
         }
         if (ends_with($url, 'getName')) {
             return [
                 'firstName' => $this->firstName,
-                'lastName' => $this->lastName
+                'lastName'  => $this->lastName,
             ];
         }
         abort(404);
