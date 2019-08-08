@@ -4,7 +4,7 @@
             <h2 class="text-center text-2xl text-80 font-light">
                 {{ firstName }} {{ lastName }} Joke
             </h2>
-            <div class="mt-4">
+            <div class="mt-4 text-center">
                 <span class="text-70">{{ joke }}</span>
             </div>
         </div>
