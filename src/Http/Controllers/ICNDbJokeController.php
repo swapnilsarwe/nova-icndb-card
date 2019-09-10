@@ -2,6 +2,7 @@
 
 namespace Swapnilsarwe\NovaIcndbCard\Http\Controllers;
 
+use Illuminate\Support\Arr;
 use Swapnilsarwe\ICNDbClient;
 
 class ICNDbJokeController
@@ -15,8 +16,8 @@ class ICNDbJokeController
     {
         $this->config = config('icndb-card');
         $nameToUse = $this->config['name_to_use'];
-        $this->firstName = array_get($nameToUse, 'first_name', 'Chuck');
-        $this->lastName = array_get($nameToUse, 'last_name', 'Norris');
+        $this->firstName = Arr::get($nameToUse, 'first_name', 'Chuck');
+        $this->lastName = Arr::get($nameToUse, 'last_name', 'Norris');
         $config = [
             'firstName' => $this->firstName,
             'lastName'  => $this->lastName,
