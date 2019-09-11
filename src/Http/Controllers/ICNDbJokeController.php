@@ -3,6 +3,7 @@
 namespace Swapnilsarwe\NovaIcndbCard\Http\Controllers;
 
 use Illuminate\Support\Arr;
+use illuminate\Support\Str;
 use Swapnilsarwe\ICNDbClient;
 
 class ICNDbJokeController
@@ -28,12 +29,12 @@ class ICNDbJokeController
     public function __invoke()
     {
         $url = url()->current();
-        if (ends_with($url, 'random')) {
+        if (Str::endsWith($url, 'random')) {
             $response = $this->icndbClient->random()->exclude($this->config['excluded_categories'])->get();
 
             return (count($response) > 0) ? $response[0]->joke : '';
         }
-        if (ends_with($url, 'getName')) {
+        if (Str::endsWith($url, 'getName')) {
             return [
                 'firstName' => $this->firstName,
                 'lastName'  => $this->lastName,
