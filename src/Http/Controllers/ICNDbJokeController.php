@@ -3,7 +3,7 @@
 namespace Swapnilsarwe\NovaIcndbCard\Http\Controllers;
 
 use Illuminate\Support\Arr;
-use illuminate\Support\Str;
+use Illuminate\Support\Str;
 use Swapnilsarwe\ICNDbClient;
 
 class ICNDbJokeController
